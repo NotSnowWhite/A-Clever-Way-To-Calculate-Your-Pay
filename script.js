@@ -15,7 +15,7 @@ let data = true;
 
     employeesArray.push({
       firstName: fName,
-      firstName: lName,
+      lastName: lName,
       salary: salary
     });
 
