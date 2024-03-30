@@ -8,8 +8,8 @@ let data = true;
 
   // TODO: Get user input to create and return an array of employee objects
   while (data) {
-    const firstName = prompt('Enter the first name:');
-    const lastName = prompt('Enter the last name:');
+    const fName = prompt('Enter the first name:');
+    const lName = prompt('Enter the last name:');
     const salaryPrompt = prompt('Enter the salary:');
     const salary = isNaN(parseInt(salaryPrompt)) ? 0 : parseInt(salaryPrompt);
 
