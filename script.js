@@ -8,23 +8,24 @@ let data = true;
 
   // TODO: Get user input to create and return an array of employee objects
   while (data) {
-    const fName = prompt('Enter the first name:');
-    const lName = prompt('Enter the last name:');
-    const salaryPrompt = prompt('Enter the salary:');
+    const fName = prompt('First name:');
+    const lName = prompt('Last name:');
+    const salaryPrompt = prompt('Salary:');
     const salary = isNaN(parseInt(salaryPrompt)) ? 0 : parseInt(salaryPrompt);
 
-    employees.push({
-      firstName: firstName,
-      lastName: lastName,
+    employeesArray.push({
+      firstName: fName,
+      firstName: lName,
       salary: salary
     });
 
-    const continueAdding = confirm('Another one?');
+    const addMore = confirm('Another one?')
 
-    if (!continueAdding) {
+    if (!addMore) {
       data = false;
     }
   }
+  return employeesArray;
 }
 
 // Display the average salary

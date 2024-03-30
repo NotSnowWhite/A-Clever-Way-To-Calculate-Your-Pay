@@ -24,4 +24,4 @@ N/A
 
 [A Clever Way to Calculate Your Pay](https://) 
 
-![Screenshot of payroll calculator with no inputs](./)
+![Screenshot of payroll calculator with no inputs](./images/calc1.png)
