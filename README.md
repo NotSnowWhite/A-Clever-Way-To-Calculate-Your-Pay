@@ -27,6 +27,6 @@ N/A
 ## Acknowledgements
 N/A
 
-[A Clever Way to Calculate Your Pay!](https://) 
+[A Clever Way to Calculate Your Pay!](https://notsnowwhite.github.io/A-Clever-Way-To-Calculate-Your-Pay/) 
 
 ![Screenshot of payroll calculator with no inputs](./images/calc2.png)
