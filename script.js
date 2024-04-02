@@ -18,7 +18,6 @@ const collectEmployees = function () {
       lastName: lName,
       salary: salary
     });
-
     const addMore = confirm('Another one?')
 
     if (!addMore) {
