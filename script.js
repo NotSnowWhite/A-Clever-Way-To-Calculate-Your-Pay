@@ -14,9 +14,9 @@ let data = true;
     const salary = isNaN(parseInt(salaryPrompt)) ? 0 : parseInt(salaryPrompt);
 
     employeesArray.push({
-      firstName: fName,
-      lastName: lName,
-      salary: salary
+      firName: fName,
+      lasName: lName,
+      sal: salary
     });
 
     const addMore = confirm('Another one?')
@@ -31,6 +31,10 @@ let data = true;
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+  let totalSalary = 0
+  employeesArray.forEach(person => {
+    console.log()
+  });
 }
 
 // Select a random employee
